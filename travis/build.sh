@@ -41,8 +41,8 @@ if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
   make -Cbuild -j4 config="${BUILD_CONFIG}_${ARCH}" ygoprodll
   ls -lah /home/runner/work/edopro/edopro/
 
-  ls -lah /home/runner/work/edopro/edopro/bin/x64
-  ls -lah /home/runner/work/edopro/edopro/obj/x64
+  ls -lah /home/runner/work/edopro/edopro/bin/x64/release
+  ls -lah /home/runner/work/edopro/edopro/obj/x64/Release
 
 fi
 if [[ "$TRAVIS_OS_NAME" == "macosx" ]]; then
