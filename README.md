@@ -1,6 +1,6 @@
 # [Project Ignis](https://github.com/ProjectIgnis): EDOPro [![Build Status](https://travis-ci.org/edo9300/edopro.svg?branch=master)](https://travis-ci.org/edo9300/edopro)
 
-The bleeding-edge automatic duel simulator, a fork of the [YGOPro client](https://github.com/Fluorohydride/ygopro).
+T e bleeding-edge automatic duel simulator, a fork of the [YGOPro client](https://github.com/Fluorohydride/ygopro).
 
 All YGOPro forks and known automatic duel simulators are powered by the [YGOPro core (ocgcore)](https://github.com/Fluorohydride/ygopro-core), an automated scripting engine for the Yu-Gi-Oh! Official Card Game. EDOPro is powered by our own [ocgcore fork](https://github.com/edo9300/ygopro-core) [![Build Status](https://travis-ci.org/edo9300/ygopro-core.svg?branch=master)](https://travis-ci.org/edo9300/ygopro-core).
 
