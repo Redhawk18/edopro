@@ -159,8 +159,7 @@ void ImageDownloader::DownloadPic() {
         continue;
       }
       SetPayloadAndUrl(epro::format(src.url, code), fp);
-      ygo::ErrorLog("{}", epro::format(src.url, code), fp);
-      ygo::ErrorLog("{}", fp);
+      ygo::ErrorLog("{}", epro::format(src.url, code));
       res = curl_easy_perform(curl);
       fclose(fp);
       if (res == CURLE_OK) {
