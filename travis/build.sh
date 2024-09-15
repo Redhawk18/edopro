@@ -42,7 +42,7 @@ if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
   ls -lah /home/runner/work/edopro/edopro/
 
   ls -lah /home/runner/work/edopro/edopro/bin
-  ls -lah /home/runner/work/edopro/edopro/build
+  ls -lah /home/runner/work/edopro/edopro/obj
 
 fi
 if [[ "$TRAVIS_OS_NAME" == "macosx" ]]; then
