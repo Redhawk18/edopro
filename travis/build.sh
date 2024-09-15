@@ -40,8 +40,10 @@ if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
   CFLAGS=-E
   make -Cbuild -j4 config="${BUILD_CONFIG}_${ARCH}" ygoprodll
   ls -lah /home/runner/work/edopro/edopro/
-	cat /home/runner/work/edopro/edopro/build/image_downloader.o
- 	cat /home/runner/work/edopro/edopro/build/image_downloader.pp
+
+  ls -lah /home/runner/work/edopro/edopro/bin
+  ls -lah /home/runner/work/edopro/edopro/build
+
 fi
 if [[ "$TRAVIS_OS_NAME" == "macosx" ]]; then
   AR=ar make -Cbuild -j3 config="${BUILD_CONFIG}_${ARCH}" ygoprodll
